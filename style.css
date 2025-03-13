@@ -16,8 +16,11 @@
   0% {
     transform: translateX(0);
   }
-  50% {
+  25% {
     transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-100px);
   }
   75% {
     transform: translateY(10px);
@@ -121,18 +124,18 @@ nav .networks {
 }
 
 /*--------------------------------------------- MEDIA QUERY -----------------------------------*/
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 572px) and (max-width: 992px) {
   body {
     font-size: 30px;
   }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 572px) and (max-width: 992px) {
   .front-page p {
     background-color: whitesmoke;
     color: black;
   }
 }
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 572px) and (max-width: 992px) {
   .container-shifts--manicura {
     display: flex;
     flex-direction: column;
