@@ -1,0 +1,68 @@
+
+@use '_mixin';
+@use '_keyframes';
+@use'_item1';
+@use '_front-page';
+@use '_subtitle';
+@use '_aside';
+@use '_carousel';
+@use '_container-shifts--manicura';
+@use '_footer';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+    .networks{
+        margin: 5px;
+    }
+}
+
+/*--------------------------------------------- MEDIA QUERY -----------------------------------*/
+
+@media (min-width:572px) and (max-width:992px){
+    body{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:572px) and (max-width:992px){
+    .front-page p{
+        background-color: whitesmoke;   
+        color: black;
+    }
+}
+
+@media (min-width:572px) and (max-width:992px){
+    .container-shifts--manicura{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 170%;
+    }
+}

@@ -1,0 +1,11 @@
+.container-shifts--manicura{
+    display: grid;
+    grid-template-columns:25% 25% 25% 1fr;
+    grid-template-rows: 100px auto;
+
+    .shifts--manicura{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+}

@@ -1,0 +1,8 @@
+@keyframes move-title{
+    0%{transform: translateX(0);}
+    25%{transform: translateX(100px);}
+    50%{transform: translateX(-100px);}
+    75%{transform: translateY(10px);}
+    100%{transform: scale(1.1); opacity: 0;}
+    
+}

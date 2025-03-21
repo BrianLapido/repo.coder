@@ -1,0 +1,13 @@
+@mixin boton ($color, $size){
+    background-color:$color;
+    font-family: $size;
+    color:azure;
+    border-radius: 10px;
+}
+.boton{
+    @include boton(blue, 'arial');
+}
+
+.btn-enviar{
+    @include boton(orange, 'times');
+}
